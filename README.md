@@ -18,3 +18,6 @@ git branch --set-upstream-to=origin/master
 ## Startup
 ### Startup with a specific file
 `mongod -f <conf file>`
+
+## Examples
+follow this [link](https://github.com/mongodb-the-definitive-guide-3e/mongodb-the-definitive-guide-3e)
