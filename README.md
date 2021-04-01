@@ -16,6 +16,7 @@ Sample dataset are available [here](https://docs.atlas.mongodb.com/sample-data/a
 ## Docker
 To rebuild the image: `docker build -t learnmongodb:dumps .`\
 To push it to Dockerhub: `docker push deppierre/learnmongodb:dumps`\
+To run the container in background: `docker run --name learnmongodb -d --rm deppierre/learnmongodb:dumps`
 
 ## Login:
 `mongo --host "192.168.103.100:27001" -u "m103-admin" -p "m103-pass" --authenticationDatabase "admin"`
