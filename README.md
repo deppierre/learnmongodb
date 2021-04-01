@@ -15,6 +15,7 @@ To push new changes: `git add . && git commit -am 'push' && git push origin mast
 To rebuild the image: `docker build -t learnmongodb:dumps .`\
 To push it to Dockerhub: `docker push deppierre/learnmongodb:dumps`\
 To run the container in background: `docker run --name learnmongodb -d --rm deppierre/learnmongodb:dumps`
+To connect to mongo: `docker exec -ti learnmongodb mongo`
 
 # MongoDB
 Sample dataset are available [here](https://docs.atlas.mongodb.com/sample-data/available-sample-datasets/)
