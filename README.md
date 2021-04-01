@@ -16,6 +16,9 @@ git branch --set-upstream-to=origin/master
 `mongo --host "192.168.103.100:27001" -u "m103-admin" -p "m103-pass" --authenticationDatabase "admin"`
 
 ## Startup
+### Startup mongod in a docker container (mongo image)
+`docker run -ti --rm mongo mongod`
+
 ### Startup with a specific file
 `mongod -f <conf file>`
 
