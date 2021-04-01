@@ -7,16 +7,17 @@ git checkout master
 git branch --set-upstream-to=origin/master
 ```
 
-## To push new changes
-`git add . && git commit -am 'push' && git push origin master`
+## To push
+To save credentials: `git config --global credential.helper store`\
+To push new changes: `git add . && git commit -am 'push' && git push origin master`
 
-# MongoDB
-Sample dataset are available [here](https://docs.atlas.mongodb.com/sample-data/available-sample-datasets/)
-
-## Docker
+# Docker
 To rebuild the image: `docker build -t learnmongodb:dumps .`\
 To push it to Dockerhub: `docker push deppierre/learnmongodb:dumps`\
 To run the container in background: `docker run --name learnmongodb -d --rm deppierre/learnmongodb:dumps`
+
+# MongoDB
+Sample dataset are available [here](https://docs.atlas.mongodb.com/sample-data/available-sample-datasets/)
 
 ## Login:
 `mongo --host "192.168.103.100:27001" -u "m103-admin" -p "m103-pass" --authenticationDatabase "admin"`
