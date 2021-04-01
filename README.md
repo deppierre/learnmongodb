@@ -16,6 +16,7 @@ Sample dataset are available [here](https://docs.atlas.mongodb.com/sample-data/a
 ## Docker
 To rebuild the image:
 `docker build -t learnmongodb:dumps .`
+
 To push it to Dockerhub:
 `docker push deppierre/learnmongodb:dumps`
 
