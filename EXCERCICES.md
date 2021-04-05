@@ -3,7 +3,7 @@
   <summary>Click to see the command!</summary>
   
   `mongo restaurants`  
-  or through Docker:  
+  or through Docker:
   `docker exec -ti learnmongodb mongo restaurants`
 </details>
 
