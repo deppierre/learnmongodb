@@ -1,4 +1,4 @@
-# Write a query to display all documents in the collection restaurants
+### Write a query to display all documents in the collection restaurants
 <details>
   <summary>Click to expand!</summary>
   
