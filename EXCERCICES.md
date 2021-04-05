@@ -1,6 +1,6 @@
-1. Write a query to display all documents in the collection restaurants\
+1. Write a query to display all documents in the collection restaurants
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Click to see the result!</summary>
   
   `db.restaurants.find();`
 </details>
