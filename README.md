@@ -2,7 +2,7 @@
 The purpose of this project is to test your MongoDB query skills against sample data sets
 
 ## Setup
-1. You need to have Docker installed on your computer ((Docker desktop)[https://docs.docker.com/docker-for-windows/install/] for Windows is easy)
+1. You need to have Docker installed on your computer. For example [Docker desktop](https://docs.docker.com/docker-for-windows/install/) for Windows is easy to install and use.
 2. You can safely pull the learnmongodb image and start an instance of this image (aka Docker container)  
 ```bash
 #to pull and run the Docker image from the repository
@@ -13,7 +13,7 @@ docker exec -ti learnmongodb mongo
 ```
 
 ## Excercices
-you can practice your skills with [these excercices](EXCERCICES.md)
+Once the container pulled, you can now practice your skills with [these excercices](EXCERCICES.md)
 
 # Maintenance
 ## Git
