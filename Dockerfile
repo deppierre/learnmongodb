@@ -5,7 +5,7 @@ ENV EDITOR="/usr/bin/vim"
 RUN apt-get update &&\
     apt-get install vim -y
 
-#IMPORT DATA IN MONGODB
+#IMPORT DATA IN MONGO
 COPY dumps /dumps
 
 RUN mongod --fork --syslog &&\
